@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <link rel="stylesheet" href="bai4.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực nghiệm số 2</title>
+</head>
+<body>
+      <a href="bai1.html">bai1</a>
+    <a href="bai2.html" >bai2</a>
+    <a href="bai4.html">bai4</a>
+    <a href="bai3.html">bai3</a>
+  <h3 >Đóng góp ý kiến của nhà trường</h3>  
+  <ol>
+    <li><h4 class="red">Thông tin về người góp ý</h4></li>
+    <form action="login.php" method="post">
+   <label class="black"> Họ và Tên<input type="text" name="txthovaten" value="" ></label><br>
+   <label class="color"> Địa chỉ email<input type="text" name="txtemail" value="" ></label><br>
+    </form>
+    <li><h4 class="blue">Đóng góp ý kiến</h4></li>
+    <form action="login.php" method="post">
+        <label>Ý kiến đóng góp:<textarea name="txtcoment" rows="6" cols="40"></textarea> </label>
+    </form>
+  </ol>
+  <form action="feedback.php" method="post">
+    <h5>Thể loại cần bổ sung thêm sách </h5>
+    <label id="color"><input type="checkbox" name="chktruyenngan">Truyện ngắn</label><br>
+    <label><input type="checkbox" name="chktho">Thơ</label><br>
+    <label><input type="checkbox" name="chklichsu">Lịch Sử</label><br>
+    <label><input type="checkbox" name="chkkynangsong">Kỹ năng Sống</label><br>
+  </form>
+  <form action="bai3.html" method="post">
+    <input type="submit" name="cmd" value="nộp">
+  </form>
+</body>
+</html>
